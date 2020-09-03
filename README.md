@@ -7,6 +7,9 @@ This repo is a script used to start selenium, open [https://cast.thosewizards.co
 * Every line that doesn't have a # is a command to run one at a time
 
 ```
+# make sure we're in the right directory, you should have installed this in `~/those-wizards-cast`, so run:
+cd ~/those-wizards-cast
+
 # Get updates for your OS package manager
 sudo apt-get update
 sudo apt-get upgrade
@@ -39,5 +42,12 @@ npm install
 * Once everything is installed, running the script is just:
 
 ```
+npm run start-cast
+```
+
+So, to run this any time, you can cd (change directory) to this folder and run that
+
+```
+cd ~/those-wizards-cast
 npm run start-cast
 ```
